@@ -8,7 +8,7 @@ const url = "https://example.com";
 axios
   .get(url)
   .then((response) => {
-    //เก็บ HTML จาำ response
+    //เก็บ HTML จาก response
     const html = response.data;
 
     //ใช้ API cheerio เพื่อโหลด HTML
