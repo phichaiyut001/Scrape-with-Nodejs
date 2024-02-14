@@ -4,12 +4,8 @@
   "description": "learn how to scrape with node.js",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "start": "node index.js"
   },
   "author": "phichaiyut",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.6.7",
-    "cheerio": "^1.0.0-rc.12"
-  }
+  "license": "ISC"
 }
